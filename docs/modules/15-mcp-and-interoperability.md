@@ -1,3 +1,8 @@
+---
+layout: default
+title: Model Context Protocol (MCP) & Interoperability
+---
+
 # Module 15 — Model Context Protocol (MCP) & Interoperability
 
 You have spent the previous modules wiring tools, retrievers, and memory directly into your agents using LangChain-native abstractions. That works beautifully *inside* a LangChain/LangGraph process. But the moment you want the **same** "search our Jira", "query the warehouse", or "read the design docs" capability to be reachable from Claude Desktop, from your IDE, from a colleague's LlamaIndex app, *and* from your LangGraph agent — you do not want to reimplement that integration four times in four frameworks.

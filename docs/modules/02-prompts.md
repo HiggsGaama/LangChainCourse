@@ -1,3 +1,8 @@
+---
+layout: default
+title: Prompts & Prompt Templates
+---
+
 # Module 2 — Prompts & Prompt Templates
 
 Prompts are the contract between your application and the model. In a real system the prompt is not a string you type once — it is a *parameterized artifact* assembled at runtime from a stable instruction layer, user-supplied content, retrieved context, conversation history, and few-shot examples. LangChain's prompt template abstractions exist to make that assembly explicit, reusable, type-checked on its inputs, and composable with the rest of an [LCEL](04-lcel-and-runnables.md) chain.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Multi-Agent Systems
+---
+
 # Module 14 — Multi-Agent Systems
 
 A single agent — an LLM in a loop with tools, as you built in [Agents with LangGraph](08-agents-with-langgraph.md) — can take you a remarkably long way. But as the surface area of a task grows, one agent starts to buckle: its system prompt becomes a sprawling instruction manual, its tool list overflows the model's attention, and its context window fills with irrelevant history. **Multi-agent systems** are the architectural answer: decompose the work across several focused agents that coordinate.

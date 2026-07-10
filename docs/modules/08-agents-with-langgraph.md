@@ -1,3 +1,8 @@
+---
+layout: default
+title: Agents with LangGraph
+---
+
 # Module 8 — Agents with LangGraph
 
 So far you have composed *fixed* pipelines: a prompt feeds a model, the model feeds a parser, the parser feeds the next step. The control flow is decided by **you**, at authoring time. An **agent** flips that: the LLM decides the control flow at *runtime*. Given a goal and a set of tools, the model chooses which tool to call, looks at the result, and decides whether to call another tool or to answer. The loop is driven by the model, not by your code.

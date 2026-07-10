@@ -64,49 +64,49 @@ export LANGSMITH_API_KEY="lsv2_..."
 ### Foundations
 | # | Module | What you'll learn |
 |---|--------|-------------------|
-| 0 | [Orientation & The Ecosystem](modules/00-orientation-and-ecosystem.md) | What LangChain is/isn't, the package layout, the Runnable mental model, how to not get burned by versioning |
-| 1 | [Models: Chat Models & LLMs](modules/01-models-chat-and-llms.md) | Messages, `invoke`/`stream`/`batch`/async, params, multimodal, caching, rate limits, fallbacks |
-| 2 | [Prompts & Prompt Templates](modules/02-prompts.md) | `ChatPromptTemplate`, `MessagesPlaceholder`, few-shot, example selectors, composition |
-| 3 | [Output Parsers & Structured Output](modules/03-output-parsers-structured-output.md) | `StrOutputParser`, Pydantic, `.with_structured_output()`, tool-based extraction |
-| 4 | [LCEL & the Runnable Interface](modules/04-lcel-and-runnables.md) | The Runnable protocol, `|` composition, parallel/branch/lambda, config, streaming, custom runnables |
+| 0 | [Orientation & The Ecosystem](modules/00-orientation-and-ecosystem) | What LangChain is/isn't, the package layout, the Runnable mental model, how to not get burned by versioning |
+| 1 | [Models: Chat Models & LLMs](modules/01-models-chat-and-llms) | Messages, `invoke`/`stream`/`batch`/async, params, multimodal, caching, rate limits, fallbacks |
+| 2 | [Prompts & Prompt Templates](modules/02-prompts) | `ChatPromptTemplate`, `MessagesPlaceholder`, few-shot, example selectors, composition |
+| 3 | [Output Parsers & Structured Output](modules/03-output-parsers-structured-output) | `StrOutputParser`, Pydantic, `.with_structured_output()`, tool-based extraction |
+| 4 | [LCEL & the Runnable Interface](modules/04-lcel-and-runnables) | The Runnable protocol, `|` composition, parallel/branch/lambda, config, streaming, custom runnables |
 
 ### Building Blocks
 | # | Module | What you'll learn |
 |---|--------|-------------------|
-| 5 | [Tools & Tool Calling](modules/05-tools-and-tool-calling.md) | `@tool`, arg schemas, binding tools, parsing tool calls, toolkits, error handling |
-| 6 | [Retrieval & RAG](modules/06-retrieval-and-rag.md) | Loaders, splitters, embeddings, vector stores, retrievers, RAG chains, advanced RAG |
-| 7 | [Memory & Conversation State](modules/07-memory-and-state.md) | Message history, `RunnableWithMessageHistory`, LangGraph persistence, trimming/summarizing |
+| 5 | [Tools & Tool Calling](modules/05-tools-and-tool-calling) | `@tool`, arg schemas, binding tools, parsing tool calls, toolkits, error handling |
+| 6 | [Retrieval & RAG](modules/06-retrieval-and-rag) | Loaders, splitters, embeddings, vector stores, retrievers, RAG chains, advanced RAG |
+| 7 | [Memory & Conversation State](modules/07-memory-and-state) | Message history, `RunnableWithMessageHistory`, LangGraph persistence, trimming/summarizing |
 
 ### Agents & LangGraph
 | # | Module | What you'll learn |
 |---|--------|-------------------|
-| 8 | [Agents with LangGraph](modules/08-agents-with-langgraph.md) | Why LangGraph, `create_react_agent`, tool-calling loops, human-in-the-loop, streaming |
-| 9 | [LangGraph Deep Dive](modules/09-langgraph-deep-dive.md) | `StateGraph`, reducers, edges/cycles, subgraphs, checkpointers, time travel, `Send`/map-reduce |
+| 8 | [Agents with LangGraph](modules/08-agents-with-langgraph) | Why LangGraph, `create_react_agent`, tool-calling loops, human-in-the-loop, streaming |
+| 9 | [LangGraph Deep Dive](modules/09-langgraph-deep-dive) | `StateGraph`, reducers, edges/cycles, subgraphs, checkpointers, time travel, `Send`/map-reduce |
 
 ### Production
 | # | Module | What you'll learn |
 |---|--------|-------------------|
-| 10 | [Observability & Eval (LangSmith)](modules/10-observability-and-eval-langsmith.md) | Tracing, datasets, evaluators, eval-driven development, prompt management |
-| 11 | [Production & Deployment](modules/11-production-and-deployment.md) | Serving, streaming to clients, async/concurrency, caching, cost/tokens, callbacks, security |
+| 10 | [Observability & Eval (LangSmith)](modules/10-observability-and-eval-langsmith) | Tracing, datasets, evaluators, eval-driven development, prompt management |
+| 11 | [Production & Deployment](modules/11-production-and-deployment) | Serving, streaming to clients, async/concurrency, caching, cost/tokens, callbacks, security |
 
 ### Projects
 | # | Module | What you'll build |
 |---|--------|-------------------|
-| 12 | [Capstone Projects](modules/12-capstone-projects.md) | A cited RAG chatbot, a multi-tool human-in-the-loop agent, and a SQL agent |
+| 12 | [Capstone Projects](modules/12-capstone-projects) | A cited RAG chatbot, a multi-tool human-in-the-loop agent, and a SQL agent |
 
 ### Advanced & Specialized
 | # | Module | What you'll learn |
 |---|--------|-------------------|
-| 13 | [Security, Safety & Guardrails](modules/13-security-and-guardrails.md) | OWASP LLM Top 10, prompt injection & the lethal trifecta, input/output guardrails, PII redaction, moderation, tool/agent sandboxing & HITL gates, multi-tenant RAG access control, guardrail frameworks, red-teaming |
-| 14 | [Multi-Agent Systems](modules/14-multi-agent-systems.md) | Supervisor / swarm / hierarchical patterns, `Command` handoffs, `langgraph-supervisor` & `langgraph-swarm`, shared state, when *not* to go multi-agent |
-| 15 | [MCP & Interoperability](modules/15-mcp-and-interoperability.md) | Model Context Protocol, `langchain-mcp-adapters`, wiring MCP servers into agents, exposing your own, and MCP security |
-| 16 | [Prompt Engineering & Agentic Patterns](modules/16-prompt-engineering-and-agentic-patterns.md) | CoT/decomposition/self-consistency, the agentic patterns (routing, parallelization, orchestrator-workers, evaluator-optimizer, reflection), workflow-vs-agent, and a Prompting-vs-RAG-vs-Fine-tuning decision guide |
+| 13 | [Security, Safety & Guardrails](modules/13-security-and-guardrails) | OWASP LLM Top 10, prompt injection & the lethal trifecta, input/output guardrails, PII redaction, moderation, tool/agent sandboxing & HITL gates, multi-tenant RAG access control, guardrail frameworks, red-teaming |
+| 14 | [Multi-Agent Systems](modules/14-multi-agent-systems) | Supervisor / swarm / hierarchical patterns, `Command` handoffs, `langgraph-supervisor` & `langgraph-swarm`, shared state, when *not* to go multi-agent |
+| 15 | [MCP & Interoperability](modules/15-mcp-and-interoperability) | Model Context Protocol, `langchain-mcp-adapters`, wiring MCP servers into agents, exposing your own, and MCP security |
+| 16 | [Prompt Engineering & Agentic Patterns](modules/16-prompt-engineering-and-agentic-patterns) | CoT/decomposition/self-consistency, the agentic patterns (routing, parallelization, orchestrator-workers, evaluator-optimizer, reflection), workflow-vs-agent, and a Prompting-vs-RAG-vs-Fine-tuning decision guide |
 
 ### Appendix
-- [A · Cheat Sheets](appendix/A-cheatsheets.md) — imports, Runnable methods, common patterns at a glance
-- [B · Common Errors & Fixes](appendix/B-common-errors.md) — the exceptions you'll actually hit, and how to resolve them
-- [C · Versioning & Migration](appendix/C-versioning-and-migration.md) — v0.1 → v0.2 → v0.3, deprecations, staying current
-- [D · Glossary](appendix/D-glossary.md) — every term used in the course, defined
+- [A · Cheat Sheets](appendix/A-cheatsheets) — imports, Runnable methods, common patterns at a glance
+- [B · Common Errors & Fixes](appendix/B-common-errors) — the exceptions you'll actually hit, and how to resolve them
+- [C · Versioning & Migration](appendix/C-versioning-and-migration) — v0.1 → v0.2 → v0.3, deprecations, staying current
+- [D · Glossary](appendix/D-glossary) — every term used in the course, defined
 
 ---
 

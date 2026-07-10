@@ -1,3 +1,8 @@
+---
+layout: default
+title: Capstone Projects
+---
+
 # Module 12 — Capstone Projects
 
 This is where the course stops being a tour and becomes a build. The previous eleven modules each isolated one slab of the stack — [models](01-models-chat-and-llms.md), [prompts](02-prompts.md), [structured output](03-output-parsers-structured-output.md), [LCEL](04-lcel-and-runnables.md), [tools](05-tools-and-tool-calling.md), [retrieval](06-retrieval-and-rag.md), [memory](07-memory-and-state.md), [agents](08-agents-with-langgraph.md), [LangGraph internals](09-langgraph-deep-dive.md), [LangSmith](10-observability-and-eval-langsmith.md), and [production concerns](11-production-and-deployment.md). Real systems compose all of them at once. The three projects below are complete, runnable, and deliberately small enough to read in one sitting, but each is wired the way a production system would be: explicit package boundaries, persistence, observability, and guardrails.

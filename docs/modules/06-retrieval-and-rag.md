@@ -1,3 +1,8 @@
+---
+layout: default
+title: Retrieval & RAG
+---
+
 # Module 6 — Retrieval & RAG
 
 Large language models are frozen at training time and bounded by their context window. They do not know your company wiki, last night's support tickets, or the PDF a user just uploaded. **Retrieval-Augmented Generation (RAG)** is the dominant pattern for closing that gap: fetch the relevant slices of an external knowledge source at query time, paste them into the prompt, and let the model reason over *grounded* facts instead of its parametric memory.

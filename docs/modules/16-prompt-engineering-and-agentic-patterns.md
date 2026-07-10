@@ -1,3 +1,8 @@
+---
+layout: default
+title: Prompt Engineering & Agentic Design Patterns
+---
+
 # Module 16 — Prompt Engineering & Agentic Design Patterns
 
 Everything in the previous modules gave you the *components*: models ([Module 1](01-models-chat-and-llms.md)), prompts ([Module 2](02-prompts.md)), structured output ([Module 3](03-output-parsers-structured-output.md)), composition with LCEL ([Module 4](04-lcel-and-runnables.md)), tools ([Module 5](05-tools-and-tool-calling.md)), agents ([Module 8](08-agents-with-langgraph.md)), and graphs ([Module 9](09-langgraph-deep-dive.md)). This module is about the part nobody can hand you as an API: **how to wire those components together so the system is actually reliable.**

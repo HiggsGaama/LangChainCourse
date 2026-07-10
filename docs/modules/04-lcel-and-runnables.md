@@ -1,3 +1,8 @@
+---
+layout: default
+title: LCEL & the Runnable Interface
+---
+
 # Module 4 — LCEL & the Runnable Interface
 
 LCEL — the **LangChain Expression Language** — is the composition layer that everything else in modern LangChain is built on. Models, prompts, output parsers, retrievers, and even whole LangGraph agents all implement one interface: **`Runnable`**. Once you internalize this interface and the handful of composition primitives around it, the rest of the framework stops feeling like a grab-bag of classes and starts feeling like one consistent algebra.

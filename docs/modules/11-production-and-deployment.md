@@ -1,3 +1,8 @@
+---
+layout: default
+title: Production & Deployment
+---
+
 # Module 11 — Production & Deployment
 
 You have a chain or a graph that works in a notebook. Production is a different animal: it must be *served* over a network, *stream* tokens to clients without timing out, *survive* provider outages and rate limits, *cost* a predictable amount, *not* leak data or get hijacked by malicious input, and *recover* its state after a process restart. This module is the bridge from "it runs" to "it runs reliably for other people."

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Memory & Conversation State
+---
+
 # Module 7 — Memory & Conversation State
 
 Chat models are **pure functions**. Given a list of messages, they return a message. They remember nothing between calls. Every illusion of a model "remembering" your earlier turns is just your application re-sending the prior conversation on each request.

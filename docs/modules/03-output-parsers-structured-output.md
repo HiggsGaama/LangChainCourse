@@ -1,3 +1,8 @@
+---
+layout: default
+title: Output Parsers & Structured Output
+---
+
 # Module 3 — Output Parsers & Structured Output
 
 A language model is, at its core, a function from text to text. But the applications you build on top of it almost never want text — they want a `Decision`, an `Invoice`, a `list[Citation]`, a routing label, a boolean. The gap between "the model emitted a string that looks like JSON" and "I have a validated Python object I can pass to the next function" is where a surprising amount of LLM engineering effort goes.

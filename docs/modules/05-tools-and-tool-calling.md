@@ -1,3 +1,8 @@
+---
+layout: default
+title: Tools & Tool Calling
+---
+
 # Module 5 — Tools & Tool Calling
 
 Tool calling is the hinge on which everything "agentic" turns. A chat model on its own can only emit text. Give it **tools** — typed, named, described functions — and it can decide *when* to call them, *with what arguments*, and then incorporate the results into its reasoning. Retrieval, web search, database queries, sending email, running code: all of it flows through one mechanism.

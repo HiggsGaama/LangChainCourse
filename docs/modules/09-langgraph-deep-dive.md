@@ -1,3 +1,8 @@
+---
+layout: default
+title: LangGraph Deep Dive
+---
+
 # Module 9 — LangGraph Deep Dive
 
 [Module 8 — Agents with LangGraph](08-agents-with-langgraph.md) showed you how to *use* LangGraph's prebuilt agent (`create_react_agent`). This module pulls that abstraction apart. You will build graphs by hand: typed state, plain-function nodes, edges that branch and loop, persistence, human-in-the-loop interrupts, time travel, and fine-grained streaming.

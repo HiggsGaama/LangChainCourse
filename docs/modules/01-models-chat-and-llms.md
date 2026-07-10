@@ -1,3 +1,8 @@
+---
+layout: default
+title: Models: Chat Models & LLMs
+---
+
 # Module 1 — Models: Chat Models & LLMs
 
 The model is the engine. Everything else in LangChain — prompts, parsers, tools, retrievers, agents — exists to feed a model the right input and do something useful with its output. This module is about that engine: how LangChain wraps it, how to call it, how to configure it, and how to make it reliable in production.

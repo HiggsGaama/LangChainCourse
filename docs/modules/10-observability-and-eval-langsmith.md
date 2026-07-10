@@ -1,3 +1,8 @@
+---
+layout: default
+title: Observability & Evaluation (LangSmith)
+---
+
 # Module 10 — Observability & Evaluation (LangSmith)
 
 You can build a chain in an afternoon. Knowing whether it actually *works* — reliably, cheaply, and fast — is the hard part, and it never ends. This module is about the discipline that separates a demo from a production system: **observability** (seeing exactly what your app did) and **evaluation** (measuring whether it did the right thing).

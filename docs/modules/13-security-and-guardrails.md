@@ -1,3 +1,8 @@
+---
+layout: default
+title: Security, Safety & Guardrails
+---
+
 # Module 13 — Security, Safety & Guardrails
 
 You can build a beautiful agent that retrieves documents, calls tools, and writes back to your systems — and ship a data-exfiltration vulnerability you never wrote a line of code for. LLM applications add an attack surface that classic appsec does not cover, because the *control plane and the data plane are the same channel*: instructions and data both arrive as natural-language tokens, and the model cannot reliably tell them apart. An attacker who can get text in front of your model — directly, or smuggled inside a document, a web page, or an API response your agent reads — can issue instructions to it.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Orientation and Ecosystem
+---
+
 # Module 0 — Orientation & The LangChain Ecosystem
 
 You already write Python for a living. This course will not teach you list comprehensions or `async def`. It will teach you LangChain — what it actually is, where its abstractions live, and how to compose them into reliable LLM applications without drowning in dependency churn or yak-shaving.
