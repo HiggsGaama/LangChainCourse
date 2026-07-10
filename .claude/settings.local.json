@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "WebSearch",
+      "WebFetch(domain:python.langchain.com)",
+      "WebFetch(domain:docs.langchain.com)",
+      "WebFetch(domain:api.python.langchain.com)",
+      "WebFetch(domain:reference.langchain.com)",
+      "WebFetch(domain:docs.smith.langchain.com)",
+      "WebFetch(domain:langchain-ai.github.io)",
+      "PowerShell(python --version)",
+      "PowerShell(py --version 2>$null)",
+      "PowerShell(python -m http.server 8137 --directory \"C:\\\\Users\\\\2158677\\\\OneDrive - Cognizant\\\\Documents\\\\Dev\\\\Claude's LangChain Course\\\\langchain-course\")",
+      "mcp__Claude_Preview__preview_start",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}

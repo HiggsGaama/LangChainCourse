@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "langchain-course-site",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8138",
+        "--directory",
+        "C:/Users/2158677/OneDrive - Cognizant/Documents/Dev/Claude's LangChain Course/langchain-course"
+      ],
+      "port": 8138
+    }
+  ]
+}
