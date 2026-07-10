@@ -1,3 +1,8 @@
+---
+layout: default
+title: The In-Depth LangChain Course for LLM Engineers
+---
+
 # The In-Depth LangChain Course for LLM Engineers
 
 A rigorous, code-first course on **modern LangChain** (the `langchain-core` / partner-package era, v0.3+) and **LangGraph**. Written for engineers who already know Python and want to master LangChain as a tool for building production LLM applications.
@@ -8,21 +13,7 @@ A rigorous, code-first course on **modern LangChain** (the `langchain-core` / pa
 
 ## How to read this course
 
-You have two options — pick whichever you like; the content is identical.
-
-### Option A — As a website (recommended)
-The repo ships a small single-page reader (`index.html`). Because browsers block local file reads over `file://`, serve the folder with any static server:
-
-```bash
-cd langchain-course
-python -m http.server 8000
-# open http://localhost:8000/
-```
-
-You get a sidebar, syntax highlighting, rendered Mermaid diagrams, an "on this page" outline, search, and a dark/light toggle.
-
-### Option B — As Markdown
-Every module is a standalone Markdown file in [`modules/`](modules/) and [`appendix/`](appendix/). They render beautifully in VS Code (open the preview with `Ctrl+Shift+V`), on GitHub, or in Obsidian. Code blocks are copy-paste ready.
+Every module is a standalone Markdown file in [`modules/`](modules/) and [`appendix/`](appendix/). They render beautifully in VS Code (open the preview with `Ctrl+Shift+V`), on GitHub, on GitHub Pages, or in Obsidian. Code blocks are copy-paste ready.
 
 ---
 
