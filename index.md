@@ -87,17 +87,20 @@ export LANGSMITH_API_KEY="lsv2_..."
 | 9 | [LangGraph Deep Dive](docs/modules/09-langgraph-deep-dive) | `StateGraph`, reducers, edges/cycles, subgraphs, checkpointers, time travel, `Send`/map-reduce |
 
 ### Production
+
 | # | Module | What you'll learn |
 |---|--------|-------------------|
 | 10 | [Observability & Eval (LangSmith)](docs/modules/10-observability-and-eval-langsmith) | Tracing, datasets, evaluators, eval-driven development, prompt management |
 | 11 | [Production & Deployment](docs/modules/11-production-and-deployment) | Serving, streaming to clients, async/concurrency, caching, cost/tokens, callbacks, security |
 
 ### Projects
+
 | # | Module | What you'll build |
 |---|--------|-------------------|
 | 12 | [Capstone Projects](docs/modules/12-capstone-projects) | A cited RAG chatbot, a multi-tool human-in-the-loop agent, and a SQL agent |
 
 ### Advanced & Specialized
+
 | # | Module | What you'll learn |
 |---|--------|-------------------|
 | 13 | [Security, Safety & Guardrails](docs/modules/13-security-and-guardrails) | OWASP LLM Top 10, prompt injection & the lethal trifecta, input/output guardrails, PII redaction, moderation, tool/agent sandboxing & HITL gates, multi-tenant RAG access control, guardrail frameworks, red-teaming |
@@ -106,6 +109,7 @@ export LANGSMITH_API_KEY="lsv2_..."
 | 16 | [Prompt Engineering & Agentic Patterns](docs/modules/16-prompt-engineering-and-agentic-patterns) | CoT/decomposition/self-consistency, the agentic patterns (routing, parallelization, orchestrator-workers, evaluator-optimizer, reflection), workflow-vs-agent, and a Prompting-vs-RAG-vs-Fine-tuning decision guide |
 
 ### Appendix
+
 - [A · Cheat Sheets](docs/appendix/A-cheatsheets) — imports, Runnable methods, common patterns at a glance
 - [B · Common Errors & Fixes](docs/appendix/B-common-errors) — the exceptions you'll actually hit, and how to resolve them
 - [C · Versioning & Migration](docs/appendix/C-versioning-and-migration) — v0.1 → v0.2 → v0.3, deprecations, staying current
