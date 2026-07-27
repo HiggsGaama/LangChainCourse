@@ -62,6 +62,7 @@ export LANGSMITH_API_KEY="lsv2_..."
 ## Curriculum
 
 ### Foundations
+
 | # | Module | What you'll learn |
 |---|--------|-------------------|
 | 0 | [Orientation & The Ecosystem](docs/modules/00-orientation-and-ecosystem) | What LangChain is/isn't, the package layout, the Runnable mental model, how to not get burned by versioning |
@@ -71,6 +72,7 @@ export LANGSMITH_API_KEY="lsv2_..."
 | 4 | [LCEL & the Runnable Interface](docs/modules/04-lcel-and-runnables) | The Runnable protocol, `|` composition, parallel/branch/lambda, config, streaming, custom runnables |
 
 ### Building Blocks
+
 | # | Module | What you'll learn |
 |---|--------|-------------------|
 | 5 | [Tools & Tool Calling](docs/modules/05-tools-and-tool-calling) | `@tool`, arg schemas, binding tools, parsing tool calls, toolkits, error handling |
@@ -78,6 +80,7 @@ export LANGSMITH_API_KEY="lsv2_..."
 | 7 | [Memory & Conversation State](docs/modules/07-memory-and-state) | Message history, `RunnableWithMessageHistory`, LangGraph persistence, trimming/summarizing |
 
 ### Agents & LangGraph
+
 | # | Module | What you'll learn |
 |---|--------|-------------------|
 | 8 | [Agents with LangGraph](docs/modules/08-agents-with-langgraph) | Why LangGraph, `create_react_agent`, tool-calling loops, human-in-the-loop, streaming |
